@@ -10,7 +10,7 @@ from ._util import _check_in, _reverse_host
 logger = setup_logging()
 
 _hg_url = "https://hg.mozilla.org/releases/mozilla-{version}/raw-file/tip/security/manager/ssl/nsSTSPreloadList.inc"
-_VERSIONS = ["beta", "release"]
+_VERSIONS = ["beta", "release", "central"]
 
 
 def _fetch_preload(version="release"):
